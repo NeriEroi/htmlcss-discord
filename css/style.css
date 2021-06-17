@@ -321,7 +321,10 @@ nav ul li a {
 /* main */ 
 
 
+
 /* footer */
+
+/* footer container */
 
 footer {
     width: 100%;
@@ -336,12 +339,17 @@ footer {
     border-bottom: 1px solid #8EA1E1;
 }
 
+/* / footer container */
+
+
+/* footer, first section */
+
 .footer-1section {
     padding: 50px 10px 0 0;
     display: inline-block;
 }
 
-.footer-container .footer-1section h3 {
+.footer-1section h3 {
     color: #8EA1E1;
     font-size: 30px;
 }
@@ -360,17 +368,17 @@ footer {
     display: inline-block;
 }
 
-.flag-italiano-cont .italiano {
+.footer-1section .flag-italiano-cont .italiano {
     display: inline-block;
     vertical-align: super;
 }
 
-.flag-container img {
+.footer-1section .flag-container img {
     width: 100%;
     height: 100%; 
 }
 
-.flag-italiano-cont .italiano #it-arrow {
+.footer-1section .flag-italiano-cont .italiano #it-arrow {
     font-size: 40px;
     color: white;
     vertical-align: super;
@@ -378,14 +386,19 @@ footer {
     bottom: 5px;
 }
 
-.icons {
+.footer-1section .icons {
     padding-top: 20px;
 }
 
-.icons i {
+.footer-1section .icons i {
     padding-right: 15px;
     color: white;
 }
+
+/* / footer, first section */
+
+
+/* footer, second section */
 
 .footer-2section {
     display: inline-block;
@@ -393,7 +406,7 @@ footer {
     
 }
 
-.ul-container {
+.footer-2section .ul-container {
     display: inline-block;
 }
 
@@ -402,20 +415,25 @@ footer {
     padding-left: 100px;
 }
 
-.ul-container .footer-ul li {
+.footer-2section .ul-container .footer-ul li {
     line-height: 25px;
     color: white;
 }
 
-.ul-container .footer-ul li:first-child {
+.footer-2section .ul-container .footer-ul li:first-child {
     line-height: 25px;
     color: #8EA1E1;
 }
 
-.ul-container.long .footer-ul.long {
+.footer-2section .ul-container.long .footer-ul.long {
     position: relative;
     top: 145px;
 }
+
+/* / footer, second section */
+
+
+/* logo and button */
 
 .under-footer {
     position: relative;
@@ -443,5 +461,7 @@ footer {
     left: 1600px;
     bottom: 14px;
 }
+
+/* / logo and button */
 
 /* / footer */
