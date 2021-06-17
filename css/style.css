@@ -318,106 +318,10 @@ nav ul li a {
 
 /* / fifth section attributes */
 
+/* main */ 
+
 
 /* footer */
-
-/* footer {
-    width: 100%;
-    height: 650px;
-    background-color: #23272A;
-}
-
-.footer-container {
-    width: 95%;
-    height: 450px;
-    margin: auto;
-}
-
-.footer-container {
-    padding: 100px 0 0 350px;
-    position: relative;
-}
-
-.footer-1section {
-    display: inline-block;
-}
-
-.footer-container .footer-1section h3 {
-    color: #8EA1E1;
-    font-size: 30px;
-}
-
-.footer-1section a {
-    color: white;
-    text-decoration: none;
-    font-size: 19px;
-    vertical-align: middle;
-}
-
-.flag-container {
-    width: 30px;
-    height: 20px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.flag-container img {
-    width: 100%;
-    height: 100%;
-    
-}
-
-.icons {
-    padding-top: 20px;
-}
-
-.icons i {
-    padding-right: 15px;
-    color: white;
-}
-
-.footer-2section {
-    position: absolute;
-    top: 110px;
-    right: 350px;
-}
-
-.footer-2section .list1,
-.footer-2section .list2,
-.footer-2section .list3,
-.footer-2section .list4 {
-    display: inline-block;
-    color: white;
-    line-height: 30px;
-    padding-right: 80px;
-}
-
-.footer-2section .list1 .list1-item:first-child,
-.footer-2section .list2 .list2-item:first-child,
-.footer-2section .list3 .list3-item:first-child,
-.footer-2section .list4 .list4-item:first-child {
-    color: #8EA1E1;
-}
-
-.discord2 {
-    position: absolute;
-    bottom: 0;
-}
-
-.registrati-container {
-    position: absolute;
-    right: 500px;
-    bottom: 0;
-}
-
-#registrati {
-    background-color: #8EA1E1;
-    padding: 15px 20px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    font-size: 15px;
-} */
 
 footer {
     width: 100%;
