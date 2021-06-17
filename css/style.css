@@ -8,6 +8,8 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+/* header attributes */
+
 header {
     width: 100%;
     height: 100px;
@@ -23,10 +25,6 @@ header .logo-container {
     left: 200px;
 }
 
-/* header .logo-container img {
-    padding-top: 16px;
-} */
-
 nav {
     display: inline-block;
     line-height: 65px;
@@ -40,13 +38,90 @@ ul li {
 ul li a {
     text-decoration: none;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-[type=submit] {
+#accedi {
     position: absolute;
     top: 30px;
     right: 200px;
     padding: 10px 20px;
+    background-color: white;
     border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
+
+/* / header attributes */
+
+
+/* main first section attributes */
+
+.background-container.text {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.background-container.text img {
+    width: 100%;
+    height: 100%;
+}
+
+.background-container.text h1 {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    color: white;
+}
+
+.background-container.text p {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-indent: 30px;
+    font-weight: 600;
+}
+
+.background-container.text button.first {
+    padding: 20px 30px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top: 51%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.background-container.text button.first #arrow {
+    font-weight: 900;
+    padding-right: 5px;
+
+}
+
+.background-container.text button.second {
+    padding: 20px 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    position: absolute;
+    top: 51%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
