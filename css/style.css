@@ -162,11 +162,13 @@ ul li a {
 
 /* / second section attributes */
 
+
 /* third section attributes */
 
 .third-section {
     width: 100%;
     height: 650px;
+    margin-top: 200px;
     position: relative;
 }
 
@@ -191,4 +193,39 @@ ul li a {
 .third-section .title-text p {
     font-size: 25px;
 }
+
+/* / third section attributes */
+
+
+/* fourth section attributes */
+
+.fourth-section {
+    width: 100%;
+    height: 650px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.fourth-section .item3 {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+
+.fourth-section .title-text {
+    position: absolute;
+    top: 27%;
+    left: 60%;
+}
+
+.fourth-section .title-text h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.fourth-section .title-text p {
+    font-size: 25px;
+}
+
+/* / fourth section attributes */
 
