@@ -158,6 +158,7 @@ ul li a {
 
 .second-section .title-text p {
     font-size: 25px;
+    line-height: 35px;
 }
 
 /* / second section attributes */
@@ -192,6 +193,7 @@ ul li a {
 
 .third-section .title-text p {
     font-size: 25px;
+    line-height: 35px;
 }
 
 /* / third section attributes */
@@ -225,7 +227,88 @@ ul li a {
 
 .fourth-section .title-text p {
     font-size: 25px;
+    line-height: 35px;
 }
 
 /* / fourth section attributes */
+
+
+/* fifth section attributes */
+
+.fifth-section {
+    width: 100%;
+    height: 650px;
+    margin-top: 200px;
+}
+
+.fifth-section .title-text {
+    text-align: center;
+}
+
+.fifth-section .title-text h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.fifth-section .title-text p {
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.fifth-section .item4 {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.fifth-section .item4 .last-item {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item4 .last-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.fifth-section .bottom-text {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.fifth-section .bottom-text h2 {
+    padding-left: 740px;
+    font-size: 26px;
+    position: absolute;
+    top: 40px;
+    text-align: center;
+}
+
+.last-button-container {
+    position: relative;
+}
+
+.fifth-section .last-button {
+    padding: 15px 30px;
+    background-color: #8EA1E1;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* / fifth section attributes */
 
